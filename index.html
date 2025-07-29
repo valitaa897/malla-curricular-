@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Interactiva - Medicina Veterinaria</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <header>
+        <h1>Malla Curricular Interactiva  veterinary</h1>
+        <p>Haz clic en los ramos que has aprobado para llevar un seguimiento de tu progreso. 🎓</p>
+    </header>
+
+    <main>
+        <div id="malla-curricular-container">
+            </div>
+    </main>
+
+    <div id="requisito-modal" class="modal-oculto">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <h2>Ramo Bloqueado</h2>
+            <p>Para poder marcar este ramo, primero debes aprobar:</p>
+            <ul id="lista-requisitos-faltantes">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
